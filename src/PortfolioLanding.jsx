@@ -6,36 +6,59 @@ import Projeto4 from './assets/projeto4.png'
 import Projeto5 from './assets/projeto5.png'
 import Projeto6 from './assets/projeto6.png'
 
+import { useState } from "react";
+
 import Wpp from './Wpp'
 
 import Heroimg from './assets/heroimg.png'
 export default function PortfolioLanding() {
+
+    const [menuOpen, setMenuOpen] = useState(false);
+    
   return (
     <div className="min-h-screen font-sans text-gray-900 bg-white">
       {/* Topbar / Logo */}
-      <header className=" bg-white/60 backdrop-blur-sm sticky top-0 z-30">
-        <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-4">
-            {/* Logo: substitua cores se quiser */}
-            <a href="#hero" className="flex items-center gap-3">
-              <div>
-                <span className="font-semibold text-lg">Recon</span>
-                <div className="text-xs text-gray-500 -mt-0.5">Sites & Landing Pages</div>
-              </div>
-            </a>
-          </div>
-          <nav className="hidden md:flex gap-6 items-center text-sm text-gray-700">
-            <a href="#servicos" className="hover:text-blue-600">Serviços</a>
-            <a href="#portfolio" className="hover:text-blue-600">Projetos</a>
-            <a href="#depoimentos" className="hover:text-blue-600">Depoimentos</a>
-            <a href="#orcamento" className="text-white bg-[#237EE6] px-4 py-2 rounded-md shadow">Orçamento</a>
-          </nav>
-          <div className="md:hidden">
-            {/* mobile menu placeholder */}
-            <button className="p-2 rounded-md border">Menu</button>
-          </div>
+       <header className="bg-white/60 backdrop-blur-sm sticky top-0 z-30">
+      <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between relative">
+        {/* Logo */}
+        <div className="flex items-center gap-4">
+          <a href="#hero" className="flex items-center gap-3">
+            <div>
+              <span className="font-semibold text-lg">Recon</span>
+              <div className="text-xs text-gray-500 -mt-0.5">Sites & Landing Pages</div>
+            </div>
+          </a>
         </div>
-      </header>
+
+        {/* Menu Desktop */}
+        <nav className="hidden md:flex gap-6 items-center text-sm text-gray-700">
+          <a href="#servicos" className="hover:text-blue-600">Serviços</a>
+          <a href="#portfolio" className="hover:text-blue-600">Projetos</a>
+          <a href="#depoimentos" className="hover:text-blue-600">Depoimentos</a>
+          <a href="#orcamento" className="text-white bg-[#237EE6] px-4 py-2 rounded-md shadow">Orçamento</a>
+        </nav>
+
+        {/* Menu Mobile */}
+        <div className="md:hidden">
+          <button
+            className="p-2 rounded-md border"
+            onClick={() => setMenuOpen(!menuOpen)}
+          >
+            {menuOpen ? "✖️" : "☰"}
+          </button>
+
+          {/* Mobile Dropdown */}
+          {menuOpen && (
+            <div className="absolute top-full left-0 right-0 bg-white/95 backdrop-blur-md shadow-md flex flex-col gap-4 p-4 mt-2 z-20">
+              <a href="#servicos" className="hover:text-blue-600" onClick={() => setMenuOpen(false)}>Serviços</a>
+              <a href="#portfolio" className="hover:text-blue-600" onClick={() => setMenuOpen(false)}>Projetos</a>
+              <a href="#depoimentos" className="hover:text-blue-600" onClick={() => setMenuOpen(false)}>Depoimentos</a>
+              <a href="#orcamento" className="text-white bg-[#237EE6] px-4 py-2 rounded-md shadow" onClick={() => setMenuOpen(false)}>Orçamento</a>
+            </div>
+          )}
+        </div>
+      </div>
+    </header>
 
       {/* Hero */}
       <main id="hero" className="max-w-6xl mx-auto px-6 py-16">
