@@ -196,7 +196,7 @@ export default function PortfolioLanding() {
             </blockquote>
 
             <blockquote className="p-6 bg-white border rounded-lg">
-              <p className="text-gray-700">"Ótimo custo-benefício e manutenção prática. Hospedagem via HostGator sem complicação."</p>
+              <p className="text-gray-700">"Ótimo custo-benefício e manutenção prática. Hospedagem sem complicação."</p>
               <footer className="mt-4 text-sm text-gray-500">— Projeto fictício</footer>
             </blockquote>
           </div>
