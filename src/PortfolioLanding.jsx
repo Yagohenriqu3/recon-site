@@ -186,7 +186,7 @@ export default function PortfolioLanding() {
           <h2 className="text-2xl font-semibold">Depoimentos</h2>
           <div className="mt-6 grid md:grid-cols-3 gap-6">
             <blockquote className="p-6 bg-white border rounded-lg">
-              <p className="text-gray-700">"A NexaSites transformou nosso site. Conversões aumentaram em 40% — super recomendo."</p>
+              <p className="text-gray-700">"A Recon transformou nosso site. Conversões aumentaram em 40% — super recomendo."</p>
               <footer className="mt-4 text-sm text-gray-500">— Marina Lopes, Clínica Saúde+</footer>
             </blockquote>
 
