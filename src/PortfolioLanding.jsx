@@ -187,7 +187,7 @@ export default function PortfolioLanding() {
           <p className="text-gray-600 mt-2">Preencha o formulário e eu entro em contato com uma proposta personalizada.</p>
 
           <form className="mt-6 grid gap-4 justify-center max-w-[95vw] ">
-            <div className="grid sm:grid-cols-2 gap-4 w-[60vw]">
+            <div className="grid sm:grid-cols-2 gap-4 md:w-[60vw]">
               <input type="text" name="nome" placeholder="Seu nome*" className="px-4 py-3 border rounded-lg" required />
               <input type="email" name="email" placeholder="Seu email*" className="px-4 py-3 border rounded-lg" required />
             </div>
@@ -213,7 +213,7 @@ export default function PortfolioLanding() {
       </section>
       
     <Wpp/>
-    
+
       {/* Footer */}
       <footer className="border-t py-8 mt-12">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
