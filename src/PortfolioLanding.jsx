@@ -6,6 +6,8 @@ import Projeto4 from './assets/projeto4.png'
 import Projeto5 from './assets/projeto5.png'
 import Projeto6 from './assets/projeto6.png'
 
+import Wpp from './Wpp'
+
 import Heroimg from './assets/heroimg.png'
 export default function PortfolioLanding() {
   return (
@@ -40,7 +42,7 @@ export default function PortfolioLanding() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-4xl md:text-3xl font-extrabold leading-tight">Transformamos sua presença digital com sites e landing pages modernas, funcionais e que destacam sua marca na web.</h1>
-            <p className="mt-4 text-lg text-gray-600">Design limpo, performance otimizada e SEO básico incluso. Trabalho com React + Tailwind para entregar interfaces escaláveis e fáceis de manter.</p>
+            <p className="mt-4 text-lg text-gray-600">Design limpo, performance otimizada e SEO básico incluso.  interfaces escaláveis e fáceis de manter.</p>
 
             <div className="mt-6 flex gap-4">
               <a href="#orcamento" className="inline-block bg-[#237EE6] text-white px-5 py-3 rounded-lg shadow hover:opacity-95">Pedir orçamento</a>
@@ -100,7 +102,7 @@ export default function PortfolioLanding() {
       <section id="portfolio" className="py-12">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-2xl font-semibold">Projetos recentes</h2>
-          <p className="text-gray-600 mt-2">Exemplos reais e fictícios para mostrar variedade.</p>
+          <p className="text-gray-600 mt-2"></p>
 
           <div className="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
   {/* Projeto 1 */}
@@ -152,8 +154,6 @@ export default function PortfolioLanding() {
   </article>
 </div>
 
-
-          <p className="mt-4 text-xs text-gray-500">Sugestão: use screenshots com borda de dispositivo (mockups). PNG/JPG 1200x800.</p>
         </div>
       </section>
 
@@ -186,8 +186,8 @@ export default function PortfolioLanding() {
           <h2 className="text-2xl font-semibold">Peça um orçamento</h2>
           <p className="text-gray-600 mt-2">Preencha o formulário e eu entro em contato com uma proposta personalizada.</p>
 
-          <form className="mt-6 grid gap-4 justify-center max-w-[95vw]">
-            <div className="grid sm:grid-cols-2 gap-4">
+          <form className="mt-6 grid gap-4 justify-center max-w-[95vw] ">
+            <div className="grid sm:grid-cols-2 gap-4 w-[60vw]">
               <input type="text" name="nome" placeholder="Seu nome*" className="px-4 py-3 border rounded-lg" required />
               <input type="email" name="email" placeholder="Seu email*" className="px-4 py-3 border rounded-lg" required />
             </div>
@@ -203,20 +203,17 @@ export default function PortfolioLanding() {
 
             <textarea name="descricao" rows="5" placeholder="Conte brevemente sobre o projeto (objetivo, público, prazo)..." className="px-4 py-3 border rounded-lg"></textarea>
 
-            {/* File input para o usuário enviar imagens ou brief */}
-            <label className="text-sm text-gray-600">Anexe imagens ou brief (opcional)</label>
-            <input type="file" name="images" accept="image/*,.pdf" multiple className="px-4 py-2" />
-
             <div className="flex items-center gap-3">
               <button type="submit" className="bg-[#237EE6] text-white px-5 py-3 rounded-lg">Enviar pedido</button>
               <button type="reset" className="px-4 py-3 border rounded-lg">Limpar</button>
             </div>
 
-            <p className="text-xs text-gray-500">Ao enviar, você pode anexar: wireframes, brief, logo em PNG/SVG e screenshots (preferência por imagens 1200x800).</p>
           </form>
         </div>
       </section>
-
+      
+    <Wpp/>
+    
       {/* Footer */}
       <footer className="border-t py-8 mt-12">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
