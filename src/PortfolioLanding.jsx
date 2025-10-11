@@ -14,7 +14,7 @@ import Heroimg from './assets/heroimg.png'
 export default function PortfolioLanding() {
 
     const [menuOpen, setMenuOpen] = useState(false);
-    
+
   return (
     <div className="min-h-screen font-sans text-gray-900 bg-white">
       {/* Topbar / Logo */}
@@ -41,7 +41,7 @@ export default function PortfolioLanding() {
         {/* Menu Mobile */}
         <div className="md:hidden">
           <button
-            className="p-2 rounded-md border"
+            className="p-2 w-10 rounded-md border"
             onClick={() => setMenuOpen(!menuOpen)}
           >
             {menuOpen ? "✖️" : "☰"}
