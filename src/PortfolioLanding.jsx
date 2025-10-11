@@ -186,7 +186,7 @@ export default function PortfolioLanding() {
           <h2 className="text-2xl font-semibold">Peça um orçamento</h2>
           <p className="text-gray-600 mt-2">Preencha o formulário e eu entro em contato com uma proposta personalizada.</p>
 
-          <form className="mt-6 grid gap-4">
+          <form className="mt-6 grid gap-4 justify-center max-w-[95vw]">
             <div className="grid sm:grid-cols-2 gap-4">
               <input type="text" name="nome" placeholder="Seu nome*" className="px-4 py-3 border rounded-lg" required />
               <input type="email" name="email" placeholder="Seu email*" className="px-4 py-3 border rounded-lg" required />
