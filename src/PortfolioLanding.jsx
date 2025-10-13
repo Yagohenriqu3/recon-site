@@ -129,52 +129,64 @@ export default function PortfolioLanding() {
 
           <div className="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
   {/* Projeto 1 */}
-  <article className="border rounded-xl overflow-hidden group md:hover:scale-150 hover:scale-120 transition-transform duration-300">
-    <div className="w-full h-44 bg-gray-100 flex items-center justify-center">
-      <img src={Projeto1} alt="Projeto 1" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+    <a href="https://yagohenriqu3.github.io/biblioteca/" target='_blank'>
+      <article className="border rounded-xl overflow-hidden group hover:scale-150 transition-transform duration-300">
+        <div className="w-full h-44 bg-gray-100 flex items-center justify-center">
+          <img src={Projeto1} alt="Projeto 1" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
       
-    </div>
-  </article>
-
-  {/* Projeto 2 */}
-   <article className="border rounded-xl overflow-hidden group md:hover:scale-150 hover:scale-120 transition-transform duration-300">
-    <div className="w-full h-44 bg-gray-100 flex items-center justify-center">
-      <img src={Projeto2} alt="Projeto 1" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+        </div>
+      </article>
+    </a>
+  
+    {/* Projeto 2 */}
+     <a href="https://landing-page-estetica-1.vercel.app/" target='_blank'>
+       <article className="border rounded-xl overflow-hidden group hover:scale-150 transition-transform duration-300">
+        <div className="w-full h-44 bg-gray-100 flex items-center justify-center">
+          <img src={Projeto2} alt="Projeto 1" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+       
+        </div>
+         </article>
+     </a>
+  
+    {/* Projeto 3 */}
+   <a href="https://yagohenriqu3.github.io/htmw/" target='_blank'>
+     <article className="border rounded-xl overflow-hidden group hover:scale-150 transition-transform duration-300">
+        <div className="w-full h-44 bg-gray-100 flex items-center justify-center">
+          <img src={Projeto3} alt="Projeto 1" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+     
+        </div>
+      </article>
+   </a>
+  
+    {/* Projeto 4 */}
+    <a href="https://yagohenriqu3.github.io/projeto-backend/" target='_blank'>
+      <article className="border rounded-xl overflow-hidden group hover:scale-150 transition-transform duration-300">
+        <div className="w-full h-44 bg-gray-100 flex items-center justify-center">
+          <img src={Projeto4} alt="Projeto 1" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
       
-    </div>
-  </article>
-
-  {/* Projeto 3 */}
- <article className="border rounded-xl overflow-hidden group md:hover:scale-150 hover:scale-120 transition-transform duration-300">
-    <div className="w-full h-44 bg-gray-100 flex items-center justify-center">
-      <img src={Projeto3} alt="Projeto 1" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+        </div>
+      </article>
+    </a>
+  
+    {/* Projeto 5 */}
+    <a href="https://valueware.com.br/" target='_blank'>
+      <article className="border rounded-xl overflow-hidden group hover:scale-150 transition-transform duration-300">
+        <div className="w-full h-44 bg-gray-100 flex items-center justify-center">
+          <img src={Projeto5} alt="Projeto 1" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
       
-    </div>
-  </article>
-
-  {/* Projeto 4 */}
-  <article className="border rounded-xl overflow-hidden group md:hover:scale-150 hover:scale-120 transition-transform duration-300">
-    <div className="w-full h-44 bg-gray-100 flex items-center justify-center">
-      <img src={Projeto4} alt="Projeto 1" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
-      
-    </div>
-  </article>
-
-  {/* Projeto 5 */}
-  <article className="border rounded-xl overflow-hidden group md:hover:scale-150 hover:scale-120 transition-transform duration-300">
-    <div className="w-full h-44 bg-gray-100 flex items-center justify-center">
-      <img src={Projeto5} alt="Projeto 1" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
-      
-    </div>
-  </article>
-
-  {/* Projeto 6 */}
-    <article className="border rounded-xl overflow-hidden group md:hover:scale-150 hover:scale-120 transition-transform duration-300">
-    <div className="w-full h-44 bg-gray-100 flex items-center justify-center">
-      <img src={Projeto6} alt="Projeto 1" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
-      
-    </div>
-  </article>
+        </div>
+      </article>
+    </a>
+  
+    {/* Projeto 6 */}
+      <a href="https://yagohenriqu3.github.io/julianacastro/" target='_blank'>
+        <article className="border rounded-xl overflow-hidden group hover:scale-150 transition-transform duration-300">
+        <div className="w-full h-44 bg-gray-100 flex items-center justify-center">
+          <img src={Projeto6} alt="Projeto 1" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+        
+        </div>
+          </article>
+      </a>
 </div>
 
         </div>
