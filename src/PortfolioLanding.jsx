@@ -207,7 +207,7 @@ export default function PortfolioLanding() {
               <div className="text-3xl flex justify-center"><FaCog className="w-8 text-[#237EE6]"  /></div>
               <h3 className="mt-4 font-semibold">Manutenção & Hospedagem</h3>
               <p className="mt-2 text-sm text-gray-600">Planos mensais com atualizações de conteúdo, backups, suporte e hospedagem.</p>
-              <div className="mt-4 font-medium">A partir de R$ 30/mês</div>
+              <div className="mt-4 font-medium">A partir de R$ 34,99/mês</div>
             </div>
           </div>
         </div>
