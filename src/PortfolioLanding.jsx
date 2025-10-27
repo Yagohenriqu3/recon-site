@@ -93,10 +93,7 @@ export default function PortfolioLanding() {
           <div>
             <h2 className="text-3xl text-left font-semibold mb-4">Sua presença online começa aqui</h2>
             <p className="text-gray-700 text-left mb-4">Hoje, a primeira impressão do seu negócio acontece na internet. Se você depende apenas do boca a boca ou das redes sociais, está deixando de alcançar novos clientes todos os dias. Um site profissional mostra credibilidade, gera confiança e coloca sua empresa no mapa — literalmente.</p>
-            <ul className="flex flex-col gap-3 text-gray-700">
-              <li className="flex items-center gap-2"><FaLaptop className="text-blue-600" /> Cliente navegando no notebook</li>
-              <li className="flex items-center gap-2"><FaMapMarkerAlt className="text-blue-600" /> Destaque no Google Maps</li>
-            </ul>
+            
           </div>
           
         </div>
@@ -104,7 +101,7 @@ export default function PortfolioLanding() {
 
       {/* 3️⃣ GMB x GMB + Site */}
       <section className="py-12 px-6 max-w-6xl mx-auto mb-20">
-        <h2 className="text-3xl font-semibold mb-6">Vantagens de ter uma exelente presença online</h2>
+        <h2 className="text-3xl font-semibold mb-6">Vantagens de ter uma excelente presença online</h2>
         <div className="overflow-x-auto">
           <table className="w-full border-collapse text-left text-gray-700">
             <thead>
