@@ -1,4 +1,4 @@
-import { FaCheck, FaLaptop, FaGlobe, FaCog, FaMapMarkerAlt, FaUsers, FaShoppingCart, FaHandshake, FaArrowUp, FaTimes } from 'react-icons/fa';
+import { FaCheck, FaLaptop, FaGlobe, FaCog, FaUsers, FaShoppingCart, FaHandshake, FaArrowUp, FaTimes } from 'react-icons/fa';
 import Projeto1 from './assets/projeto1.png'
 import Projeto2 from './assets/projeto2.png'
 import Projeto3 from './assets/projeto3.png'
@@ -57,7 +57,7 @@ export default function PortfolioLanding() {
       </header>
 
       {/* Hero */}
-      <main id="hero" className="max-w-6xl mx-auto px-6 py-16">
+      <main id="hero" className="max-w-6xl  mx-auto px-6 py-16">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-4xl md:text-3xl font-extrabold leading-tight">Transformamos sua presença digital com sites e landing pages modernas, funcionais e que destacam sua marca na web.</h1>
@@ -100,7 +100,7 @@ export default function PortfolioLanding() {
       </section>
 
       {/* 3️⃣ GMB x GMB + Site */}
-      <section className="py-12 px-6 max-w-6xl mx-auto mb-20">
+      <section className="py-12 px-6   max-w-6xl mx-auto mb-20">
         <h2 className="text-3xl font-semibold mb-6">Vantagens de ter uma excelente presença online</h2>
         <div className="overflow-x-auto">
           <table className="w-full border-collapse text-left text-gray-700">
