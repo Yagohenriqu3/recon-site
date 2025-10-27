@@ -149,10 +149,10 @@ export default function PortfolioLanding() {
           <h2 className="text-3xl font-semibold mb-6">Resultados que você sente no dia a dia</h2>
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <ul className="flex flex-col gap-4 text-gray-700">
-              <li className="flex items-center gap-3"><FaArrowUp className="text-blue-600"/> Mais visibilidade — apareça antes dos concorrentes.</li>
-              <li className="flex items-center gap-3"><FaHandshake className="text-blue-600"/> Mais credibilidade — passe confiança e profissionalismo.</li>
-              <li className="flex items-center gap-3"><FaShoppingCart className="text-blue-600"/> Mais vendas — conquiste novos clientes 24h por dia.</li>
-              <li className="flex items-center gap-3"><FaUsers className="text-blue-600"/> Mais conexão — fale com quem busca exatamente o que você oferece.</li>
+              <li className="flex  justify-start items-center gap-3"><FaArrowUp className="text-blue-600 text-[2em]"/> Mais visibilidade — apareça antes dos concorrentes.</li>
+              <li className="flex justify-start items-center gap-3"><FaHandshake className="text-blue-600 text-[2em]"/> Mais credibilidade — passe confiança e profissionalismo.</li>
+              <li className="flex justify-start items-center gap-3"><FaShoppingCart className="text-blue-600 text-[2em]"/> Mais vendas — conquiste novos clientes 24h por dia.</li>
+              <li className="flex justify-start items-center gap-3"><FaUsers className="text-blue-600 text-[2em] "/> Mais conexão — fale com quem busca exatamente o que você oferece.</li>
             </ul>
             <div className="rounded-xl overflow-hidden shadow-lg">
               <img src={Site2} alt="Cliente feliz usando notebook ou celular" className="w-full h-64 object-cover" />
