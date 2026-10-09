@@ -12,6 +12,8 @@ import Heroimg from './assets/heroimg.png'
 import Site1 from './assets/site1.png'
 import Site2 from './assets/site2.png'
 
+import { Link } from 'react-router-dom'
+
 export default function PortfolioLanding() {
 
     const [menuOpen, setMenuOpen] = useState(false);
@@ -216,29 +218,29 @@ export default function PortfolioLanding() {
       {/* Portfolio */}
       <section id="portfolio" className="py-12 mb-20">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-2xl font-semibold">Projetos recentes</h2>
+          <h2 className="text-2xl font-semibold">Demonstrativo</h2>
           <p className="text-gray-600 mt-2"></p>
 
           <div className="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
   {/* Projeto 1 */}
-    <a href="https://yagohenriqu3.github.io/biblioteca/" target='_blank'>
+    <Link to='/modelo-1' target='_blank'>
       <article className="border border-gray-400 rounded-xl overflow-hidden group hover:scale-150 transition-transform duration-300">
         <div className="w-full h-44 bg-gray-100 flex items-center justify-center">
           <img src={Projeto1} alt="Projeto 1" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
       
         </div>
       </article>
-    </a>
+    </Link>
   
     {/* Projeto 2 */}
-     <a href="https://landing-page-estetica-1.vercel.app/" target='_blank'>
+     <Link to='/modelo-2' target='_blank'>
        <article className="border border-gray-400 rounded-xl overflow-hidden group hover:scale-150 transition-transform duration-300">
         <div className="w-full h-44 bg-gray-100 flex items-center justify-center">
           <img src={Projeto2} alt="Projeto 1" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
        
         </div>
          </article>
-     </a>
+     </Link>
   
     {/* Projeto 3 */}
    <a href="https://yagohenriqu3.github.io/htmw/" target='_blank'>
@@ -251,14 +253,14 @@ export default function PortfolioLanding() {
    </a>
   
     {/* Projeto 4 */}
-    <a href="https://yagohenriqu3.github.io/projeto-backend/" target='_blank'>
+    <Link to='modelo-3' target='_blank'>
       <article className="border border-gray-400 rounded-xl overflow-hidden group hover:scale-150 transition-transform duration-300">
         <div className="w-full h-44 bg-gray-100 flex items-center justify-center">
           <img src={Projeto4} alt="Projeto 1" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
       
         </div>
       </article>
-    </a>
+    </Link>
   
     {/* Projeto 5 */}
     <a href="https://valueware.com.br/" target='_blank'>
@@ -271,14 +273,14 @@ export default function PortfolioLanding() {
     </a>
   
     {/* Projeto 6 */}
-      <a href="https://yagohenriqu3.github.io/julianacastro/" target='_blank'>
+      <Link to='/modelo-4' target='_blank'>
         <article className="border border-gray-400 rounded-xl overflow-hidden group hover:scale-150 transition-transform duration-300">
         <div className="w-full h-44 bg-gray-100 flex items-center justify-center">
           <img src={Projeto6} alt="Projeto 1" className="w-full h-full object-cover" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
         
         </div>
           </article>
-      </a>
+      </Link>
 </div>
 
         </div>
