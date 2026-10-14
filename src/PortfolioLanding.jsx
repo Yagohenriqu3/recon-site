@@ -195,21 +195,21 @@ export default function PortfolioLanding() {
               <div className="text-3xl flex justify-center"> <FaLaptop className="w-8 text-[#237EE6]"  /></div>
               <h3 className="mt-4 font-semibold">Landing page</h3>
               <p className="mt-2 text-sm text-gray-600">Página única focada em conversão, formulário integrado e otimização para anúncios.</p>
-              <div className="mt-4 font-medium">A partir de R$ 289,90</div>
+             
             </div>
 
             <div className="p-6 border border-gray-400  rounded-xl hover:scale-105 duration-150">
               <div className="text-3xl flex justify-center"> <FaGlobe className="w-8 text-[#237EE6]" /></div>
               <h3 className="mt-4 font-semibold">Site Institucional</h3>
               <p className="mt-2 text-sm text-gray-600">Multi-página, seção de serviços, blog básico e SEO inicial.</p>
-              <div className="mt-4 font-medium">A partir de R$ 599,90</div>
+              
             </div>
 
             <div className="p-6 border border-gray-400 rounded-xl hover:scale-105 duration-150">
               <div className="text-3xl flex justify-center"><FaCog className="w-8 text-[#237EE6]"  /></div>
               <h3 className="mt-4 font-semibold">Manutenção & Hospedagem</h3>
               <p className="mt-2 text-sm text-gray-600">Planos mensais com atualizações de conteúdo, backups, suporte e hospedagem.</p>
-              <div className="mt-4 font-medium">A partir de R$ 34,99/mês</div>
+              
             </div>
           </div>
         </div>
